@@ -1,0 +1,51 @@
+#t1{
+	font-size: 15px;
+	width: 1330px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+.entet{
+	color: white;
+	background-color: #0078d7;
+	border: solid rgba(0,0,0,.3);
+	height: 40px;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.tble{
+	border: 1px solid rgba(0,0,0,.5);
+	margin: 1.2% 2%;
+	height: auto;
+	border-radius: 7px;
+}
+.infos{
+	background-color: rgb(255,255,255);
+	color: black;
+	border: solid rgba(0,0,0,.3);
+	height: auto;
+	margin-top: 2%;
+}
+#liste{
+	width: 1350px;
+	background-color: white;
+	overflow: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-radius: 10px;
+	display: block;
+	overflow: auto;
+	border: 1px solid rgba(0,0,0,.3);
+	margin-left: auto;
+	margin-right: auto;
+}
+.title{
+	padding: 1%;
+	background-color: white;
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+}

@@ -1,0 +1,154 @@
+#conseils{
+    text-align: center;
+    background-color: white;
+    padding: 1.5%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    margin-top: 1%;
+    width: 800px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+    border: 1px solid #0078d7;
+    border-radius: 7px;
+}
+#conseils h3{
+    color: #333;
+    font-weight: bolder;
+    margin: 2%;
+}
+#conseils ul{
+    display: block;
+    text-align: left;
+}
+#corps{
+    border: 1px solid #0078d7;
+    margin-top: 1%;
+    padding: 2%;
+    background-color: white;
+    height: 530px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 790px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+#formAjout h3{
+    color: #333;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 1%;
+    display: inline-block;
+}
+.input{
+    border:none;
+    font-size: 15px;
+    width: 320px;
+    margin: 3% 2%;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(0,120,215);
+}
+#description{
+    width: 681px;
+}
+#lieu{
+    margin-left: -353px;
+}
+.lst-contenaire{
+    position: relative; 
+    background-color: #fff;
+    border: 2px solid rgba(0,120,215,.9);
+    margin: 0 0 1.5em 0;
+    overflow: hidden;
+    width: 320px;
+    border-radius: 7px; 
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 0.5%;
+}
+.lst-contenaire select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 320px; 
+    /* 
+        On est sûr de ne plus voir
+        la flèche native 
+    */
+    border: 0; 
+    margin: 0;
+    padding: .75em;
+    border-radius: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lst-contenaire::after{
+    /* Le pointeur du select */
+    content: '';
+    position: absolute;
+    top: 50%; 
+    margin-top: -3px;
+    right: .75em;  
+    display: block; 
+    width: 0; height: 0;
+    border-color: transparent;
+    border-top-color: #444; 
+    border-width: 6px;
+    border-style: solid;
+    pointer-events: none;
+}
+#select{
+    display: inline-block;
+    text-align: center;
+}
+.fImage{
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#blckImage{
+    display: inline-block;
+}
+.ajout{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #0078d7;
+    float: none;
+    text-decoration: none;
+}
+#btnAjouter{
+    background-color: #0078d7;
+    border-radius: 7px;
+    border:1px solid rgba(0,120,215, .5);
+    padding: 1.7%;
+    color: white;
+    margin-top: 2%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 1%;
+    width: 120px;
+}
+#reset{
+    border-radius: 7px;
+    border:2px solid rgb(0,120,215);
+    padding: 1.5%;
+    background-color: white;
+    margin-right: 1%;
+    color: #0078d7;
+    margin-top: 2%;
+    text-align: center;
+    width: 120px;
+}
+#erreur{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

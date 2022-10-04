@@ -1,0 +1,359 @@
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url("../fonts/Montserrat-Regular.otf");
+}
+*{
+    font-family: 'Segoe UI Light', 'Montserrat-Regular';
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+#banniere{
+   
+    width: auto;
+    height:100%;
+}
+body{
+     background-image: url('../img/outside.jpg');
+    background-size: cover;
+    
+}
+.menu{
+    box-shadow: 0 0 15px 2px rgba(0,0,0,.5);
+   padding: 6px;
+    overflow: hidden;
+    background-color: #333;
+    width: auto;
+    
+    padding-left: 3%; 
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+.menu li {
+    float: left;
+}
+.menu li a, .dropbtn{
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a:hover, .dropdown:hover .dropbtn{
+  
+    background-color: #0078d7;
+}
+.menu li .dropdown{
+    display: inline-block;
+}
+.elementListe{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+}
+.elementListe a{
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.elementListe a:hover{
+    background-color: #f1f1f1;
+}
+.dropdown:hover .elementListe {
+    display: block;
+}
+#nAnnonce{
+    border-radius: 7px;
+    float: right;
+    margin-right: 1.5%;
+    border: 2px solid #0078d7;
+}
+
+#fSignIn{
+	text-align: center;
+}
+#corpsSignIn{
+    padding-bottom: 5%;
+    width: auto;
+    height: auto;
+    padding-top:10%;
+    color: white;
+    background-color: rgba(60,63,65,.5)
+}
+#corpsSignIn h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+#corpsSignIn h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.input{
+    display: inline-block;
+    font-size: 15px;
+    width: 250px;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #0078d7;
+    padding: 12px;
+    margin: 7px;
+}
+#numTel{
+    text-align: center; 
+    width: 543px;
+}
+#adrMail{
+    text-align: center; 
+    width: 543px;
+}
+#btnSingIn{
+    border-radius: 7px;
+    width: 150px;
+    color: white;
+    background-color: #0078d7;
+    border: 1px solid #0078d7;
+    margin: 10px;
+    padding: 13px;
+    font-size: 17px;
+    cursor: pointer;
+}
+#btnCancel{
+    cursor: pointer;
+    border: 1px solid #0078d7;
+    margin: 10px;
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 7px;
+    width: 150px;
+    color: #0078d7;
+    background-color: transparent;
+    
+}
+#corpsSignIn p{
+    padding-bottom: 1%;
+    text-align: center;
+}
+#corpsSignIn p a{
+    text-decoration: none;
+    color: white;
+}
+#corpsSignIn p a:hover{
+    color: #0078d7;
+}
+#corpsSignUp{
+    padding-bottom: 5%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding-top:7%;
+    color: white;
+    background-color: rgba(60,63,65,.5)
+}
+#corpsSignUp h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+#corpsSignUp h4{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+#btnSingUp{
+    border-radius: 7px;
+    width: 274px;
+    color: white;
+    background-color: #0078d7;
+    border: 1px solid #0078d7;
+    margin: 10px;
+    padding: 13px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.connectImg{
+    margin: 20px;
+    border: 2px solid #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#otherConnect h2{
+    margin-top: 17px;
+    color: white;
+    font-size: 20px;
+}
+#corpsSignUp p{
+    padding-bottom: 1%;
+}
+#corpsSignUp p a{
+    text-decoration: none;
+    color: white;
+}
+#corpsSignUp p a:hover{
+    color: #0078d7;
+}
+
+#pieds{
+    position: relative;
+    bottom: 0;
+    padding-top: 5%;
+    width: 100%;
+    background-color: rgba(67,74,84,.6);
+}
+.disposition{
+    flex-direction: row;
+    display: flex;
+}
+.menuBas{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #0078d7;
+}
+
+.menuBas li{
+   list-style-type: none;
+    margin-left: 30%;
+}
+.titre{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+.sTitre{
+    font-weight: lighter;
+    text-decoration: none;
+    color: #333;
+    text-align: left;
+}
+.sTitre:hover{
+    text-decoration: underline;
+}
+#copy{
+    color: white;
+    padding: 1%;
+}
+#copy h4 a{
+    color: white;
+    margin-top: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 7%;
+}
+#powered{
+    float: right;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-style: normal;
+}
+/*C H A N G E M E N T---D E---L A---D I S P O S I T I O N:  P E T I T   E C R A N*/
+@media screen and (max-width :530px){
+    
+    .connectImg{
+    margin: 10px;
+    height: 35px;
+    width: 35px;
+    margin-bottom: 5%
+    }
+    #otherConnect h2{
+    margin-bottom: 5%;
+    margin-top: 20px;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    font-size: .5em;
+    }
+    #connectBtn a{
+    margin: 7px;
+    padding: 10px;
+    letter-spacing: 5px;
+    width: 200px;
+    border: 2px solid #3F2B96;    
+    }
+    #corpsSignIn h2{
+    padding-top:2%;
+    font-size: 1.7em;
+    }
+    #corpsSignIn h4{
+    font-size: .9em;
+    margin-bottom: 2%;
+    }
+    .input{
+        width:67%;
+    }
+    #numTel{
+        width:67%;
+    }
+    #fSignIn{
+        margin-top:7%;
+    }
+    #btnSingIn{
+    width: 67%;
+    margin: 5px;
+    padding: 7px;
+    font-size: 13px;
+    }
+    
+    #btnCancel{
+    width: 67%;
+    margin: 5px;
+    padding: 7px;
+    font-size: 13px;
+    }
+    #corpsSignIn p a {
+        font-size: 12px;
+    }
+    #corpsSignUp h2{
+    padding-top:2%;
+    font-size: 1.7em;
+    }
+    #corpsSignUp h4{
+    font-size: .9em;
+    margin-bottom: 2%;
+    }
+    .input{
+        width:67%;
+    }
+    /*#fSignUp{
+        margin-top:35%;
+    }*/
+    #btnSingUp{
+    width: 67%;
+    margin: 5px;
+    padding: 7px;
+    font-size: 13px;
+    }
+    #corpsSignUp p a {
+        font-size: 12px;
+    }
+    .menuH ul li a{
+        display: none;
+    }
+    #
+    .icones{
+        display: none;
+    }
+    .btnFermer{
+        position: absolute;
+        right:15px;
+        display: block;
+  
+    }
+}
